@@ -1,0 +1,22 @@
+{
+  "name": "veswap-subgraph",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "codegen": "graph codegen --output-dir src/types/",
+    "build": "graph build",
+    "create": "graph create veswap-subgraph --node http://localhost:8020",
+    "deploy": "graph deploy veswap-subgraph --node http://localhost:8020 --ipfs http://localhost:5001"
+  },
+  "dependencies": {
+    "@graphprotocol/graph-cli": "0.31.0",
+    "@graphprotocol/graph-ts": "0.27.0",
+    "@typescript-eslint/eslint-plugin": "^5.29.0",
+    "@typescript-eslint/parser": "^5.29.0",
+    "eslint": "^8.18.0",
+    "eslint-config-prettier": "^8.5.0",
+    "gluegun": "^5.1.2",
+    "matchstick-as": "^0.5.0",
+    "typescript": "^4.7.2"
+  }
+}
