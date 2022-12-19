@@ -6,9 +6,9 @@ dataSources:
     name: Factory
     network: apothem
     source:
-      address: "0x28A10b8798Ec7a4dd47fa39A8Eb61e006df3bb0B"
+      address: "0x346D87A4672A729E24B6a1b5Da5768730e84aae3"
       abi: FactoryAbi
-      startBlock: 42750000
+      startBlock: 42780000
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.5
@@ -34,9 +34,9 @@ dataSources:
     name: Controller
     network: apothem
     source:
-      address: "0xa43ee3DE5862a0e33f62e0871e3C13446fdCA348"
+      address: "0xDbffb6838623677E2802217584F2F728404fB45e"
       abi: ControllerAbi
-      startBlock: 42750000
+      startBlock: 42780000
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.5
